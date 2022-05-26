@@ -1,0 +1,128 @@
+html {
+    position: relative;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.texto-cabecalho {
+    text-align: center;
+    padding: 60px;
+    background-color: #FFB6C1;
+    font-family: 'Parisienne', cursive;
+    font-size: 54px;
+    color: #B03060
+}
+
+.texto-chamada {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+
+#links {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+#rodape {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #B03060;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+   
+}
+
+#nome-da-loja-pag-ctrl {
+    font-family: 'Parisienne', cursive;
+    padding: 36px;
+    background-color: #FFB6C1;
+    font-size: 54px;
+    text-align: center;
+    color: #B03060
+}
+
+.links-controle {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.tabela {
+    border: 1px solid black;
+    font-family: 'Poiret One', cursive;
+    text-align: left;
+}
+
+#titulo-pagina {
+    font-family: 'Poiret One', cursive;
+
+}
+
+#nome-da-loja-pag-produto {
+    font-family: 'Parisienne', cursive;
+    padding: 36px;
+    background-color: #FFB6C1;
+    font-size: 54px;
+    text-align: center;
+    color: #B03060
+}
+
+.links-pag-produto {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#titulo-pag-produtos {
+    font-family: 'Poiret One', cursive;
+}
+
+.informacoes-produto {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+#botao-produto {
+    border-radius: 6px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    background-color: #FFB6C1;
+}
+
+#nome-loja-pag-funcionarios {
+    font-family: 'Parisienne', cursive;
+    padding: 36px;
+    background-color: #FFB6C1;
+    font-size: 54px;
+    text-align: center;
+    color: #B03060
+}
+
+.links-pag-funcionarios {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#titulo-pag-funcionarios {
+    font-family: 'Poiret One', cursive;
+}
+
+#lista-de-funcionarios {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    text-align: left;
+}
