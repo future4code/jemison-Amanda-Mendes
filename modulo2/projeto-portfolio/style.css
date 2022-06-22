@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:;
+    height: 100%;
+}
+
+header{
+    background-color: ;
+    padding: 20px;
+    border-bottom: 5px solid #DB7093;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    display: inline;
+    padding: 5%;
+    color: #363636;
+}
+
+h4{
+    font-family: 'Cutive Mono', monospace;
+    display: inline;
+    padding: 5%;
+    color: #363636;
+}
+
+.links-sobre-mim{
+    text-align: right;
+    padding: 0px 80px 0px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    color: #363636;
+}
+
+a:hover{
+    background-color: #FFC0CB;
+    border-radius: 4px;
+}
+
+#sobre-mim, #habilidades, #curriculo{
+    color: #363636;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 94px;
+    font-size: 36px;
+}
+
+p, .conteudo ul, ul{
+    font-family: 'Cutive Mono', monospace;
+    padding-left: 94px;
+    width: 800px;
+    font-size: 20px;
+}
+
+img {
+    width: 20%;
+    padding: 54px;
+}
+
+.rodape {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    background-color:#FFC0CB;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: left;
+    padding: 80PX;
+}
+
+footer img, .dados-contato img {
+    width: 2%;
+    padding-left: 100px;
+}
+
+#contato{
+    color: #363636;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 94px;
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 94px;
+    font-size: 40px;
+    color: #DB7093
+}
+
+form {
+    font-size: 24px;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 94px;
+    margin: left;
+    width: 400px;
+    font-weight: 500;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+}
+
+input, textarea {
+    font-family: 'Cutive Mono', monospace;
+    font-size: medium;
+    color: #999;
+    width: 300px;
+    box-sizing: border-box;
+
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+button {
+    margin-left: .5em;
+    background-color:#FFC0CB;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color: #DB7093;
+}
+
+button:hover {
+    background-color:#DB7093;
+}
+
+#imagem-pag-contato{
+    width: 30%;
+    padding-right: 100px;
+}
+
+.link-blackjack img {
+    padding-left: 100px;
+    width: 30%;
+}
+
+.link-blackjack p {
+    padding-top: 150px ;
+    width: 1000px;
+}
+
+.link-blackjack h1 {
+    color: #363636;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding-left: 94px;
+    font-size: 36px;
+}
+
+.link-loja h1, .link-loja p, .link-loja ul {
+    padding-left: 150px;
+    width: 600px;
+}
+
+.link-loja img{
+    width: 30%;
+}

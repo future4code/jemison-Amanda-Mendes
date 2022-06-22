@@ -1,0 +1,13 @@
+nav{
+    background-color: pink;
+    display: flex;
+}
+
+.icone{
+    width: 2%;
+    flex-direction: row;
+}
+
+.botao-nav{
+    flex-direction: row;
+}

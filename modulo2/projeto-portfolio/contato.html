@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Darker+Grotesque:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cabecalho">
+        <header>
+            <h1>Amanda Azevedo</h1>
+            <div class="links-sobre-mim">
+                <a href="sobre-mim.html">Sobre mim</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="contato.html">Contato</a>
+            </div>
+            <h4>Desenvolvedora Web Full Stack</h4>   
+        </header>
+    </div>
+
+    <div class="dados-contato">
+        
+        <br>
+        <h1 id="contato">Contato</h1>
+        <img id="imagem-pag-contato" align=right src="./imagens/imagem-contato.png">
+        <br>
+        <br>
+        <br>
+        <p>Preencher os campos abaixo para entrar em contato:</p>
+        <br>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="usuario_nome" />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="usuario_email" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" name="usuario_msg"></textarea>
+            </div>
+        
+            <div class="button">
+                <button type="submit">Enviar sua mensagem</button>
+            </div>
+            <br>
+            <br>
+        </form>
+    </div>
+    <div class="rodape">
+        <footer>
+            <p>Amanda Azevedo</p>
+            <p>Telefone: (21) 99691-9828</p>
+            <p>E-mail: amandaazevedo62@gmail.com</p>
+            <a href="https://www.instagram.com/amanda.azevedo62/"><img src="./imagens/instagram.png"></a>
+            <a href="https://github.com/AmandaAzevedo62"><img src="./imagens/github.png"></a>                
+            <a href="https://www.linkedin.com/in/amanda-azevedo-60a03294/"><img src="./imagens/linkedin.png"></a>
+        </footer>
+    </div>
+</body>
+</html>
