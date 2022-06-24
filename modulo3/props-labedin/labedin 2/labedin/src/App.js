@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
+import CardPequeno from './components/CardPequeno/CardPequeno'
 
 function App() {
   return (
@@ -9,9 +10,9 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
-          nome="Astrodev" 
-          descricao="Oi, eu sou o Astrodev. Sou o chefe dos alunos da Labenu. Adoro pedir e-mails na sexta-feira e esperar os alunos responderem só para responder com uma bronca e dar mais trabalho para eles."
+          imagem="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MEw_uxTBRaOt_qPOQvI3PU_yYX5q9p_iJ-c23dvRDwk-Swnu1YJBG50Ox_9c7tHkB5k&usqp=CAU" 
+          nome="Amanda Azevedo" 
+          descricao="Oi, eu sou a Amanda. Sou estudante da Labenu. Estou cursando Desenvolvimento Web Full Stack, no momento estou aprendendo React. Sou apaixonada por desafios e aventuras."
         />
         
         <ImagemButton 
@@ -21,17 +22,35 @@ function App() {
       </div>
 
       <div className="page-section-container">
+        
+        <CardPequeno
+          imagem="https://cdn-icons-png.flaticon.com/512/115/115757.png" 
+          nome="Email"
+          info="amandaazevedo62@gmail.com"
+          
+        /> 
+
+        <CardPequeno
+          imagem="https://cdn-icons-png.flaticon.com/512/126/126341.png" 
+          nome="Telefone"
+          info="(21) 99691-9828"
+          
+        /> 
+      </div>
+
+
+      <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
-          imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
-          nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          imagem="https://scontent.fgig4-1.fna.fbcdn.net/v/t1.6435-9/67585723_722090941578719_512692891823374336_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEyoFYvUzGNXetLFVyDiyz40hwVOg5y4j3SHBU6DnLiPS3bQ3mY0vCNiaoqldGDAWezAc98ylzviz3BUJ_OR3Y5&_nc_ohc=GB29w6Ln4esAX_sqHw2&_nc_ht=scontent.fgig4-1.fna&oh=00_AT9nTDG4yEUVjUpASwGSPYppaQYwL8KU1u-53MSILvFeMw&oe=62DD5ED7" 
+          nome="Amanda Azevedo - Confeitaria Artesanal" 
+          descricao="Confeitaria" 
         />
         
         <CardGrande 
-          imagem="https://logodownload.org/wp-content/uploads/2019/03/nasa-logo-0-768x768.png" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem="https://ultraflux-1278.kxcdn.com/wp-content/uploads/2015/08/UltrafluxLogoTypoPantone-e1439281649737.jpg" 
+          nome="USE-Ultraflux" 
+          descricao="Área Comercial" 
         />
       </div>
 
