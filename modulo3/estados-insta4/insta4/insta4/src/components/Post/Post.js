@@ -55,6 +55,7 @@ function Post(props){
 
   const onClickCurtida = () => {
     console.log('Curtiu!')
+    setnumeroCurtidas(numeroCurtidas +1)
   }
   
   const onClickComentario = () => {
