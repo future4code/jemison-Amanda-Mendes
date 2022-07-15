@@ -1,0 +1,2 @@
+C:\Users\Amanda Azevedo\Desktop\jemison-Amanda-Mendes\thinking-react\thinking-react\src\img\passo2-04.png
+C:\Users\Amanda Azevedo\Desktop\jemison-Amanda-Mendes\thinking-react\thinking-react\src\img\passo3-01.png
